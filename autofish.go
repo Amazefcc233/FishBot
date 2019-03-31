@@ -79,7 +79,7 @@ func main() {
 	for e := range events {
 		switch e {
 		case bot.PlayerSpawnEvent:
-			log.Println("Player is spawn! 开始钓鱼")
+			log.Println("Successfully spawning player! 开始钓鱼")
 			go fish(g)
 		}
 	}
